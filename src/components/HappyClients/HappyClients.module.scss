@@ -1,0 +1,16 @@
+.happyClients {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+	.happyClients__text {
+		position: relative;
+	}
+
+	.happyClients__text::after {
+		content: url('/src/assets/img/icons/vector-after-clients.svg');
+		top: 10px;
+		left: -5px;
+		position: absolute;
+	}
+}

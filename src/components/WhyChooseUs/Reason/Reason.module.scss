@@ -1,0 +1,47 @@
+.reasonsList__reasonItem {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	cursor: pointer;
+
+	.reasonItem__Btn {
+		padding-bottom: 12px;
+		border-bottom: 1px solid #ffffff6d;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.reasonItem__title {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+	.reasonItem__text {
+		opacity: 0.6;
+		font-size: 16px;
+		line-height: 28px;
+		max-width: 540px;
+
+		animation: showReason 0.5s forwards;
+	}
+
+	@keyframes showReason {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 0.6;
+		}
+	}
+
+	.arrow {
+		transition: transform 0.2s linear;
+	}
+
+	.arrowActive {
+		transform: rotate(180deg);
+	}
+}

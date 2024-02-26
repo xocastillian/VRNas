@@ -1,0 +1,29 @@
+.link__item {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 1.5px;
+	padding: 18px 38px;
+	background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+	text-transform: uppercase;
+	transition: filter 0.2s linear;
+}
+
+.link__item-dark {
+	display: inline-block;
+	padding: 18px 38px;
+	border: 1px solid #e95ce9;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	background-color: #ffffff0f;
+	transition: filter 0.2s linear;
+}
+
+.link__item:hover,
+.link__item-dark:hover {
+	filter: brightness(0.8);
+}

@@ -1,0 +1,28 @@
+.ourArticles {
+	margin-top: 200px;
+}
+
+.ourArticles__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ourArticles__content {
+	display: flex;
+	position: relative;
+	margin-top: 130px;
+}
+
+.lightArt {
+	position: absolute;
+	bottom: 950px;
+	z-index: -1;
+}
+
+.gridVisual {
+	position: absolute;
+	left: 0;
+	bottom: 670px;
+	z-index: -1;
+}

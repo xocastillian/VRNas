@@ -1,0 +1,75 @@
+.ourPricing {
+	position: relative;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.ourPricing__intro {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+	.intro__name {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 21px;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: #e95ce9;
+	}
+
+	.intro__title {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 58px;
+		letter-spacing: -0.005em;
+	}
+
+	.intro__text {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 28px;
+		opacity: 0.6;
+		max-width: 625px;
+	}
+}
+
+.ourPricing__serviceOption {
+	background-color: #25253260;
+	border: 1px solid;
+	border-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent) 1;
+	padding: 55px 120px 55px 45px;
+	display: flex;
+	position: relative;
+}
+
+.ourPricing__imgs {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.serviceOption__services {
+	width: 760px;
+	border-right: 1px solid #ffffff40;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.ourPricing__blurBg {
+	position: absolute;
+	right: 0;
+	top: 6500px;
+	z-index: -1;
+}
+
+.card__position {
+	position: absolute;
+	bottom: -10%;
+	right: 15%;
+}

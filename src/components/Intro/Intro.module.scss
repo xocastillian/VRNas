@@ -1,0 +1,31 @@
+.intro {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+	.intro__name {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 21px;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: #e95ce9;
+	}
+
+	.intro__title {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 58px;
+		letter-spacing: -0.005em;
+	}
+
+	.intro__text {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 28px;
+		opacity: 0.6;
+		max-width: 625px;
+	}
+}

@@ -1,0 +1,40 @@
+.recentArticles {
+	position: absolute;
+	padding: 35px 120px 0 100px;
+	background-color: #252532;
+	min-width: 750px;
+	max-height: 605px;
+	overflow-y: auto;
+	right: -145px;
+	top: -33px;
+	border: 1px solid;
+	border-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent) 1;
+}
+
+.recentArticles::-webkit-scrollbar {
+	width: 2px;
+	height: 474px;
+	padding-right: 72px;
+}
+
+.recentArticles::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+.recentArticles::-webkit-scrollbar-track {
+	background-color: #ffffff1f;
+	border-radius: 6px;
+}
+
+.recentArticles__items {
+	max-width: 513px;
+	height: 100%;
+}
+
+.recentArticles__title {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 36px;
+	letter-spacing: -0.005em;
+}

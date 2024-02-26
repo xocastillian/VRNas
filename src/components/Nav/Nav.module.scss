@@ -1,0 +1,36 @@
+.nav {
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.nav__navigation {
+		display: flex;
+		align-items: center;
+	}
+
+	.navigation__links {
+		display: flex;
+		align-items: center;
+		margin-right: 215px;
+		gap: 65px;
+	}
+
+	.links__item {
+		transition: color 0.2s linear;
+	}
+
+	.links__item:hover {
+		color: #e95ce9;
+	}
+
+	.navigation__contacts {
+		padding: 12px 24px;
+		border: 1px solid #e95ce9;
+		transition: background 0.2s linear;
+	}
+
+	.navigation__contacts:hover {
+		background: #e95ce939;
+	}
+}

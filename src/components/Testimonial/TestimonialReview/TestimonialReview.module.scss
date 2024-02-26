@@ -1,0 +1,53 @@
+.testimonialReview {
+	display: flex;
+	gap: 20px;
+}
+
+.testimonialReview__icon {
+	padding: 10px;
+	background-color: #25253299;
+	border: 1px solid;
+	border-color: #ffffff3b;
+	border-radius: 50%;
+	transition: border-color 0.2s linear;
+	cursor: pointer;
+
+	&:hover {
+		border-color: #0cbaf1;
+	}
+}
+
+.testimonialReview__content {
+	padding: 20px;
+	background-color: #252532c4;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	animation: opacity 0.5s forwards;
+
+	@keyframes opacity {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+}
+
+.content__text {
+	max-width: 255px;
+	font-size: 12px;
+	line-height: 20px;
+	opacity: 0.6;
+}
+
+.content__autor {
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom: 1px solid #0cbaf1;
+}
+
+.autor__position {
+	opacity: 0.6;
+}

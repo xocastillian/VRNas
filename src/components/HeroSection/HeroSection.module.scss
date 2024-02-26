@@ -1,0 +1,25 @@
+.heroSection {
+	margin-top: 140px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.vrMainImg {
+	& img {
+		margin-top: -75px;
+	}
+}
+
+.lightGrad {
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	top: 130px;
+}
+
+.gridVisual {
+	position: absolute;
+	left: 0;
+	top: 350px;
+	z-index: -1;
+}

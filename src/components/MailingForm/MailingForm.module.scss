@@ -1,0 +1,53 @@
+.mailingForm {
+	margin-top: 180px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 38px 74px;
+	background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
+
+.mailingForm__title {
+	max-width: 520px;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 58px;
+	letter-spacing: -0.005em;
+}
+
+.mailingForm__input {
+	display: flex;
+	align-items: center;
+	padding: 0 0 0 15px;
+	background-color: #ffffff12;
+	min-width: 365px;
+	justify-content: space-between;
+}
+
+.input__block {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.input {
+	font-size: 16px;
+	line-height: 28px;
+	color: #ffffff;
+
+	&::placeholder {
+		color: #ffffff;
+	}
+}
+
+.input__submit {
+	display: flex;
+	align-items: center;
+	padding: 18px;
+	background-color: #ffffff36;
+	transition: background-color 0.2s linear;
+
+	&:hover {
+		background-color: #e95ce9;
+	}
+}

@@ -1,0 +1,17 @@
+.content__popular {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+
+
+	.popular__title {
+		font-weight: 600;
+		font-size: 28px;
+		line-height: 36px;
+		letter-spacing: -0.005em;
+	}
+}
+
+.popular__items {
+	max-width: 636px;
+}

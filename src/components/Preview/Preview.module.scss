@@ -1,0 +1,20 @@
+.preview {
+	.preview__descr {
+		margin-bottom: 100px;
+	}
+
+	.descr__title {
+		max-width: 540px;
+		font-size: 64px;
+		font-weight: 600;
+		line-height: 83px;
+		margin-bottom: 12px;
+	}
+
+	.descr__text {
+		max-width: 445px;
+		line-height: 28px;
+		margin-bottom: 50px;
+		opacity: 0.6;
+	}
+}

@@ -1,0 +1,21 @@
+.OverviewItem__item {
+	max-width: 325px;
+	display: flex;
+	flex-direction: column;
+	gap: 42px;
+}
+
+.item__content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	line-height: 28px;
+}
+
+.content__title {
+	font-size: 20px;
+}
+
+.content__text {
+	opacity: 0.6;
+}

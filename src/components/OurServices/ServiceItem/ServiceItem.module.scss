@@ -1,0 +1,80 @@
+.service {
+	position: relative;
+	width: 379px;
+	height: 291px;
+	background-color: #25253299;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid;
+	border-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent) 1;
+	transition: border-image 0.2s linear;
+	-moz-transition: border-image 0.2s linear;
+
+	&:hover {
+		border-image: linear-gradient(to right, #0cbaf1, #e95ce9) 1;
+	}
+
+	&:hover .service__link {
+		opacity: 1; /* Плавно показываем элемент при наведении */
+		visibility: visible; /* Плавно показываем элемент при наведении */
+	}
+
+	&:hover .service__text {
+		opacity: 0.1;
+	}
+
+	.service__link {
+		position: absolute;
+		bottom: 30px;
+		text-align: center;
+		justify-self: flex-end;
+		opacity: 0; /* Начальная прозрачность */
+		visibility: hidden; /* Начальная видимость */
+		transition: opacity 0.2s linear, visibility 0.2s linear;
+	}
+
+	.link__item {
+		display: inline-block;
+		font-size: 700px;
+		font-size: 14px;
+		line-height: 14px;
+		letter-spacing: 1.5px;
+		padding: 18px 38px;
+		background-color: #252532;
+		border: 1px solid;
+		border-image: linear-gradient(to right, #0cbaf1, #e95ce9) 1;
+	}
+
+	.service__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 38px;
+	}
+
+	.service__content {
+		display: flex;
+		flex-direction: column;
+		gap: 60px;
+	}
+
+	.service__descr {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.service__title {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+	.service__text {
+		font-size: 14px;
+		line-height: 26px;
+		max-width: 290px;
+		opacity: 0.6;
+		transition: opacity 0.2s linear;
+	}
+}

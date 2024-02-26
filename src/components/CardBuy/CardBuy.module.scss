@@ -1,0 +1,33 @@
+.ourPricing__card {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+	padding: 20px 70px;
+	background-color: #252532;
+	border: 1px solid;
+	border-image: linear-gradient(to right, #0cbaf1, #e95ce9) 1;
+}
+
+.card__price {
+	text-align: center;
+
+	.price__text {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		opacity: 0.6;
+	}
+
+	.price__price {
+		font-weight: 600;
+		font-size: 60px;
+		line-height: 66px;
+	}
+}
+
+.card__garantee {
+	font-size: 12px;
+	line-height: 20px;
+	opacity: 0.6;
+}
